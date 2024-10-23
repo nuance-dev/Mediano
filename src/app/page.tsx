@@ -18,7 +18,7 @@ function Hero() {
         <div className="pb-24 pt-16 sm:pb-32 sm:pt-24 md:pb-48 md:pt-32">
           <img
             alt="Medio Banner"
-            src="/mediobanner.jpg"
+            src="/MedioBanner.jpg"
             className="sm:h-120 md:h-144 mb-12 mt-[-20px] h-32 rounded-2xl shadow-md"
           />
           <h1 className="font-display text-balance text-6xl/[0.9] font-medium tracking-tight text-gray-950 sm:text-8xl/[0.8] md:text-9xl/[0.8]">

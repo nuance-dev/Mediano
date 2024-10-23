@@ -83,7 +83,7 @@ export function Navbar({ banner }: { banner?: React.ReactNode }) {
               <Link href="/" title="Home">
                 <img
                   alt="Medio Logo"
-                  src="/mediologo.png"
+                  src="/MedioLogo.png"
                   className="h-9 max-sm:mx-auto sm:h-8 lg:h-12"
                 />
               </Link>
