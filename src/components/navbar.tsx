@@ -8,14 +8,12 @@ import {
 import { Bars2Icon } from '@heroicons/react/24/solid'
 import { motion } from 'framer-motion'
 import { Link } from './link'
-import { Logo } from './logo'
 import { PlusGrid, PlusGridItem, PlusGridRow } from './plus-grid'
 
 const links = [
-  { href: '/pricing', label: 'Pricing' },
-  { href: '/company', label: 'Company' },
-  { href: '/blog', label: 'Blog' },
-  { href: '/login', label: 'Login' },
+  { href: '/Medio.zip', label: 'Download App' },
+  { href: 'https://github.com/nuance-dev/Medio', label: 'Github' },
+  { href: 'https://x.com/Nuancedev', label: 'Follow me' },
 ]
 
 function DesktopNav() {
@@ -83,7 +81,11 @@ export function Navbar({ banner }: { banner?: React.ReactNode }) {
           <div className="relative flex gap-6">
             <PlusGridItem className="py-3">
               <Link href="/" title="Home">
-                <Logo className="h-9" />
+                <img
+                  alt="Medio Logo"
+                  src="/mediologo.png"
+                  className="h-9 max-sm:mx-auto sm:h-8 lg:h-12"
+                />
               </Link>
             </PlusGridItem>
             {banner && (
