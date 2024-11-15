@@ -41,7 +41,7 @@ function Hero() {
             className="sm:h-120 md:h-144 mb-12 mt-[20px] h-32 rounded-2xl shadow-md"
           />
           <div className="mt-4 flex flex-col gap-x-2 gap-y-2 sm:flex-row">
-            <Button variant="primary" href="/Medio.zip">
+            <Button variant="primary" href="https://github.com/nuance-dev/medio/releases">
               Download App
             </Button>
             <Button
